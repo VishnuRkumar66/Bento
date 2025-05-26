@@ -13,7 +13,7 @@ const Bento: React.FC = () => {
       <div className="bg-gray-100 w-full h-full py-10 px-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 auto-rows-[40px]  grid-flow-dense">
           <div
-            className="rounded-lg shadow-md p-4 text-white flex flex-col text-center items-center justify-center  col-span-2 row-span-5
+            className="rounded-lg shadow-md p-4 text-white flex flex-col text-center items-center justify-center  col-span-2 row-span-5 hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600
           sm:order-1
           md:order-2 
           
@@ -28,7 +28,7 @@ const Bento: React.FC = () => {
           </div>
           <div
             className="rounded-lg shadow-md p-4 text-black flex  flex-col items-center font-semibold col-span-2 row-span-3
-          
+          hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600
           sm:col-span-1 sm:row-span-4 sm:order-2
           md:col-span-1 md:row-span-4 md:order-4
           
@@ -45,7 +45,7 @@ const Bento: React.FC = () => {
           </div>
           <div
             className="rounded-lg shadow-md  text-black flex flex-col  text-lg font-semibold col-span-2 row-span-4
-          overflow-hidden
+          overflow-hidden hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600
           sm:col-span-1 sm:row-span-4 sm:order-3
           
           md:col-span-1 md:row-span-4 md:order-5 
@@ -59,7 +59,7 @@ const Bento: React.FC = () => {
           </div>
 
           <div
-            className="rounded-lg shadow-md text-black flex flex-col items-center text-lg font-semibold col-span-2 row-span-8 text-center overflow-hidden
+            className="rounded-lg shadow-md text-black flex flex-col items-center text-lg font-semibold col-span-2 row-span-8 text-center overflow-hidden hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600
 
             sm:col-span-1 sm:row-span-7 sm:order-4
             md:col-span-1 md:row-span-9 md:order-3
@@ -81,7 +81,7 @@ const Bento: React.FC = () => {
           </div>
 
           <div
-            className="rounded-lg shadow-md text-white flex flex-col sm:flex-row items-center text-center font-semibold col-span-2 row-span-6 
+            className="rounded-lg shadow-md text-white flex flex-col sm:flex-row items-center text-center font-semibold col-span-2 row-span-6  hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600
           
           sm:row-span-4 sm:order-6
           md:col-span-2 md:row-span-4 md:order-8
@@ -98,7 +98,8 @@ const Bento: React.FC = () => {
             </p>
           </div>
           <div
-            className="rounded-lg shadow-md p-4  flex flex-col text-black font-semibold col-span-2 row-span-4 
+            className="rounded-lg shadow-md p-4  flex flex-col text-black font-semibold col-span-2 row-span-4
+            hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600 
           sm:col-span-1 sm:row-span-4 sm:order-7
           md:col-span-1 md:row-span-4 md:order-7
           
@@ -113,7 +114,7 @@ const Bento: React.FC = () => {
           </div>
           <div
             className="rounded-lg shadow-md  text-black flex flex-col  font-semibold col-span-2 row-span-4
-          
+          hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600
           sm:col-span-1 sm:row-span-4 sm:order-8
           
           md:col-span-1 md:row-span-6 md:order-1
@@ -127,7 +128,7 @@ const Bento: React.FC = () => {
             <img className="p-8 w-65 sm:w-55" src={post} alt="" />
           </div>
           <div
-            className="rounded-lg shadow-md  text-black flex flex-col p-8  justify-center text-lg font-semibold col-span-2 row-span-5
+            className="rounded-lg shadow-md  text-black flex flex-col p-8  justify-center text-lg font-semibold col-span-2 row-span-5 hover:scale-105 transition-transform cursor-pointer hover:shadow-xl hover:shadow-yellow-600
           
           sm:col-span-1  sm:row-span-7  sm:order-5
           md:col-span-1 md:row-span-7 md:order-6
